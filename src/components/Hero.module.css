@@ -70,3 +70,8 @@
 }
 
 .btnSecondary:hover { border-color: var(--accent-light); }
+
+.highlight {
+  color: var(--accent-light);
+  font-weight: 600;
+}

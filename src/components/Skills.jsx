@@ -2,20 +2,28 @@ import styles from './Skills.module.css'
 
 const SKILLS = [
   {
+    category: 'Backend',
+    items: ['PHP', 'Symfony', 'Doctrine ORM', 'API REST', 'API Platform', 'SQL (MySQL)'],
+  },
+  {
+    category: 'Frontend',
+    items: ['JavaScript', 'HTML / CSS', 'Chart.js', 'React', 'Twig'],
+  },
+  {
     category: 'Langages',
-    items: ['PHP', 'C', 'JavaScript', 'SQL', 'HTML / CSS'],
+    items: ['C++', 'C'],
   },
   {
-    category: 'Frameworks & Librairies',
-    items: ['Symfony 7', 'React', 'Doctrine ORM', 'Twig', 'Chart.js'],
+    category: 'Outils & Infrastructure',
+    items: ['Git', 'Docker', 'Linux', 'PHPStorm', 'VS Code', 'Figma'],
   },
   {
-    category: 'Infrastructure & BDD',
-    items: ['Docker', 'MariaDB', 'MySQL', 'Apache', 'phpMyAdmin'],
+    category: 'Méthodes',
+    items: ['Scrum (Scrum Master)', 'Kanban', 'GitFlow'],
   },
   {
-    category: 'Outils & Méthodes',
-    items: ['Git', 'GitHub', 'Scrum', 'PHPUnit', 'Composer'],
+    category: 'Langues',
+    items: ['Français — bilingue', 'Anglais — C1', 'Roumain — natif', 'Espagnol — B1'],
   },
 ]
 
