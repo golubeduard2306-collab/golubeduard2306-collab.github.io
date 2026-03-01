@@ -1,9 +1,20 @@
+@keyframes fadeDown {
+  from {
+    opacity: 0;
+    transform: translateY(-20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
 .hero {
   min-height: calc(100vh - 61px);
   display: flex;
   flex-direction: column;
   justify-content: center;
-  padding: 80px 24px;
+  padding: 40px 24px 60px;
   max-width: 1000px;
   margin: 0 auto;
 }
@@ -13,6 +24,7 @@
   color: var(--accent-light);
   margin-bottom: 8px;
   font-weight: 500;
+  animation: fadeDown 0.5s ease both;
 }
 
 .name {
@@ -20,12 +32,14 @@
   font-weight: 800;
   line-height: 1.1;
   margin-bottom: 16px;
+  animation: fadeDown 0.5s ease 0.1s both;
 }
 
 .title {
   font-size: 1.25rem;
   color: var(--text-muted);
   margin-bottom: 24px;
+  animation: fadeDown 0.5s ease 0.2s both;
 }
 
 .title span {
@@ -39,12 +53,14 @@
   font-size: 1rem;
   margin-bottom: 40px;
   line-height: 1.8;
+  animation: fadeDown 0.5s ease 0.3s both;
 }
 
 .cta {
   display: flex;
   gap: 16px;
   flex-wrap: wrap;
+  animation: fadeDown 0.5s ease 0.4s both;
 }
 
 .btnPrimary {

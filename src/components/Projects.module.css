@@ -1,7 +1,7 @@
 .grid {
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(290px, 1fr));
-  gap: 24px;
+  gap: 16px;
 }
 
 .card {
@@ -26,7 +26,6 @@
 }
 
 .highlighted::before {
-  content: '★ Featured';
   position: absolute;
   top: -1px;
   right: 20px;
