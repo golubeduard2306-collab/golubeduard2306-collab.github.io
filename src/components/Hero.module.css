@@ -19,6 +19,36 @@
   margin: 0 auto;
 }
 
+.layout {
+  display: flex;
+  align-items: center;
+  gap: 48px;
+}
+
+.content {
+  flex: 1;
+  min-width: 0;
+}
+
+.gifWrapper {
+  flex-shrink: 0;
+  animation: fadeDown 0.5s ease 0.5s both;
+}
+
+.gif {
+  width: 320px;
+  border-radius: 12px;
+}
+
+@media (max-width: 640px) {
+  .layout {
+    flex-direction: column;
+  }
+  .gif {
+    width: 240px;
+  }
+}
+
 .greeting {
   font-size: 1rem;
   color: var(--accent-light);
