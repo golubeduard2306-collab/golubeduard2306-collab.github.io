@@ -1,5 +1,7 @@
 import styles from './Skills.module.css'
 
+const LEARNING = ['React (projets universitaires & perso)', 'Swift', 'UI/UX mobile']
+
 const SKILLS = [
   {
     category: 'Backend',
@@ -42,6 +44,14 @@ export default function Skills() {
             </ul>
           </div>
         ))}
+      </div>
+      <div className={styles.learning}>
+        <h3 className={styles.learningTitle}>En cours d'apprentissage</h3>
+        <div className={styles.learningBadges}>
+          {LEARNING.map(item => (
+            <span key={item} className={styles.learningBadge}>⚡ {item}</span>
+          ))}
+        </div>
       </div>
     </section>
   )

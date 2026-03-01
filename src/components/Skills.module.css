@@ -44,3 +44,35 @@
   border-radius: 50%;
   flex-shrink: 0;
 }
+
+.learning {
+  margin-top: 32px;
+  padding: 24px;
+  background: var(--bg-card);
+  border: 1px dashed var(--border);
+  border-radius: var(--radius);
+}
+
+.learningTitle {
+  font-size: 0.8rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  color: var(--text-muted);
+  margin-bottom: 16px;
+}
+
+.learningBadges {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.learningBadge {
+  font-size: 0.85rem;
+  color: var(--text-muted);
+  background: rgba(255, 255, 255, 0.04);
+  border: 1px dashed var(--border);
+  padding: 5px 14px;
+  border-radius: 20px;
+}
